@@ -1,0 +1,212 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: " Arial";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(250, 250, 250, 0.959);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.custom-btn {
+  border: 2px solid #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+
+.btn-3 {
+  line-height: 39px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.btn-3:hover {
+  background: transparent;
+  color: #000;
+}
+
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  left: 8px;
+  top: 8px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+
+.btn-3:before {
+  height: 10px;
+  width: 1px;
+}
+
+.btn-3:after {
+  width: 10px;
+  height: 1px;
+}
+
+.btn-3:hover:before {
+  height: 30px;
+}
+
+.btn-3:hover:after {
+  width: 30px;
+}
+
+.btn-3 span:before {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 10px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  right: 5px;
+  bottom: 0px;
+  margin-bottom: 2px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+
+.btn-3 span:before {
+  position: absolute;
+  content: "";
+  right: 0px;
+  bottom: 2px;
+  width: 1px;
+  height: 10px;
+  margin-right: 4px;
+
+}
+
+.btn-3 span:after {
+  width: 10px;
+  height: 1px;
+}
+
+.btn-3 span:hover:before {
+  height: 30px;
+  width: 1px;
+}
+
+.btn-3 span:hover:after {
+  height: 1px;
+  width: 30px
+}
+
+
+
+
+.btndark-3 {
+  line-height: 39px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.btndark-3:hover {
+  color: white;
+}
+
+.btndark-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.btndark-3:before,
+.btndark-3:after {
+  position: absolute;
+  content: "";
+  left: 8px;
+  top: 8px;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.btndark-3:before {
+  height: 10px;
+  width: 1px;
+}
+
+.btndark-3:after {
+  width: 10px;
+  height: 1px;
+}
+
+.btndark-3:hover:before {
+  height: 30px;
+}
+
+.btndark-3:hover:after {
+  width: 30px;
+}
+
+.btndark-3 span:before {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 10px;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.btndark-3 span:after {
+  position: absolute;
+  content: "";
+  right: -5px;
+  bottom: 0px;
+  margin-bottom: 2px;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.btndark-3 span:before {
+  position: absolute;
+  content: "";
+  right: -10px;
+  bottom: 2px;
+  width: 1px;
+  height: 10px;
+  margin-right: 4px;
+
+}
+
+.btndark-3 span:after {
+  width: 10px;
+  height: 1px;
+}
+
+.btndark-3 span:hover:before {
+  height: 30px;
+  width: 1px;
+}
+
+.btndark-3 span:hover:after {
+  height: 1px;
+  width: 30px
+}
